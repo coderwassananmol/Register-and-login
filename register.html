@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+.input {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+<title>Register yourself</title>
+</head>
+<body>
+<form action="register.php" method="post">
+<div class="form-group">
+<h1>Hooray! Get yourself registered. Free for only lucky users like you.</h1>
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Username</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name="username">
+<br />
+<label for="exampleInputPassword1"><font color="red">*</font>Password</label>
+<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password1">
+<br />
+<label for="exampleInputPassword1"><font color="red">*</font>Confirm Password</label>
+<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password2">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>First name</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="First name" name="firstname">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Last name</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Last name" name="lastname">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Age</label>
+<input type="number" min="10" max="80" step="1" name="age">
+<br />
+</div>
+<label for="exampleInputEmail1"><font color="red">*</font>Sex</label>
+&nbsp; &nbsp;
+<label class="radio-inline"><input type="radio" value="male" name="sex" checked>Male</label>
+<label class="radio-inline"><input type="radio" value="female" name="sex">Female</label>
+<br />
+<div class="form-group">
+<label for="exampleInputEmail1"><font color="red">*</font>E-Mail</label>
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail" name="email">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Father's name</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Father's name" name="fathername">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Mother's name</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Mother's name" name="mothername">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Father's occupation</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Father's occupation" name="fatheroccupation">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Mother's occupation</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Mother's occupation" name="motheroccupation">
+<br />
+<label for="exampleInputEmail1"><font color="red">*</font>Phone no.</label>
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Phone no." name="phone">
+<br />
+<input type="submit" class="input" name="submit">
+</div>
+</form>
+</body>
+</html>
