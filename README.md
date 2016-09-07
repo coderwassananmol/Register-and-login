@@ -9,6 +9,9 @@ It is a complete user register and login system.
 
 # What more to come?
 1. OOP Implementation.
-2. MySQL functions to be replaced with MySQLi functions.
+2. MySQL functions to be replaced with MySQLi functions. ✓ Done (With OOP implementation).
 3. Introducing GD and Captcha image security. ✓ Done.
-4. A lot, a lot, a lot to come.
+4. "Remember Me" option.
+5. CSRF Protection.
+6. E-Mail Validation.
+7. A lot, a lot, a lot to come.
