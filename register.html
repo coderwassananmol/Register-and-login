@@ -32,7 +32,7 @@
 <h1>Hooray! Get yourself registered. Free for only lucky users like you.</h1>
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Username</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name="username">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username" name="username" value="<?php if (isset($_POST['username'])) echo $_POST['username'];?>">
 <br />
 <label for="exampleInputPassword1"><font color="red">*</font>Password</label>
 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password1">
@@ -41,10 +41,10 @@
 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password2">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>First name</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="First name" name="firstname">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="First name" name="firstname" value="<?php if (isset($_POST['firstname'])) echo $_POST['firstname'];?>">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Last name</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Last name" name="lastname">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Last name" name="lastname" value="<?php if (isset($_POST['lastname'])) echo $_POST['lastname'];?>">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Age</label>
 <input type="number" min="10" max="80" step="1" name="age"">
@@ -57,22 +57,22 @@
 <br />
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>E-Mail</label>
-<input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail" name="email">
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-Mail" name="email" value="<?php if (isset($_POST['email'])) echo $_POST['email'];?>">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Father's name</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Father's name" name="fathername">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Father's name" name="fathername" value="<?php if (isset($_POST['firstname'])) echo $_POST['firstname'];?>">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Mother's name</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Mother's name" name="mothername">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Mother's name" name="mothername" value="<?php if (isset($_POST['mothername'])) echo $_POST['mothername'];?>">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Father's occupation</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Father's occupation" name="fatheroccupation">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Father's occupation" name="fatheroccupation" value="<?php if (isset($_POST['fatheroccupation'])) echo $_POST['fatheroccupation'];?>">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Mother's occupation</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Mother's occupation" name="motheroccupation">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Mother's occupation" name="motheroccupation" value="<?php if (isset($_POST['motheroccupation'])) echo $_POST['motheroccupation'];?>">
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Phone no.</label>
-<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Phone no." name="phone">
+<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Phone no." name="phone" value="<?php if (isset($_POST['phone'])) echo $_POST['phone'];?>">
 </div>
 <br />
 <label for="exampleInputEmail1"><font color="red">*</font>Verify yourself</label>
