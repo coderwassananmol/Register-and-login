@@ -9,11 +9,11 @@ $loginpassword = '';
 $server = 'localhost';
 $error = 'Could not connect';
 $database='users';
-if(!(@mysql_connect($server,$loginusername,$loginpassword)) || !(@mysql_select_db($database)))
+$connect_db=new mysqli($server,$loginusername,$loginpassword,$database);
+if(@!$connect_db)
 {
-    die($error);
+    die($error);    
 }
-
 ?>
 </body>
 </html>
